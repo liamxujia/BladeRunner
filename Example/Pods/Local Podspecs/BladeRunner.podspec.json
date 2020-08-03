@@ -16,7 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
-  "source_files": "BladeRunner/Classes/**/*"
+  "source_files": "BladeRunner/Classes/**/*",
+  "dependencies": {
+    "Gifu": [
+      "~> 3.2.0"
+    ],
+    "SwiftyGif": [
+      "~> 5.3.0"
+    ]
+  }
 }

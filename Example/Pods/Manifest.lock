@@ -1,16 +1,27 @@
 PODS:
-  - BladeRunner (0.1.0)
+  - BladeRunner (0.1.0):
+    - Gifu (~> 3.2.0)
+    - SwiftyGif (~> 5.3.0)
+  - Gifu (3.2.0)
+  - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
   - BladeRunner (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Gifu
+    - SwiftyGif
 
 EXTERNAL SOURCES:
   BladeRunner:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BladeRunner: 6eb7e646e7000d98f7243d3b15737fa063087cb6
+  BladeRunner: c8fcb456ad98b7dc0ba2ce505781c66330b1eee0
+  Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
-PODFILE CHECKSUM: 61214fa01eda3c342b49c459487dc40bf460398e
+PODFILE CHECKSUM: 0b1ff7021236d05eccae5b4d54177f4fd9622812
 
 COCOAPODS: 1.9.3

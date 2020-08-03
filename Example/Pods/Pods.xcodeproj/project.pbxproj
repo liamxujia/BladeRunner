@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04ABFA5DC8C2F283C760CA98B2EF631A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0DE4387D24134610B31AA7DB4690625E /* Pods-BladeRunner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F622150E2A6CAF4F83AAF85F1A3F /* Pods-BladeRunner_Example-dummy.m */; };
-		10F21E8D800461D79470702611464633 /* BladeRunner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D822E6CC97108BC15C0DB3DB18730836 /* BladeRunner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10FEB00787E02D238AE72AEEF64CF904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1ACBDD370EEA2A78BAAA9D1A122BEE4F /* BladeRunner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07B6A8F7D994EA9B09E2F4DAAF1ABF /* BladeRunner-dummy.m */; };
+		04ABFA5DC8C2F283C760CA98B2EF631A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400B79264052F804BBA186CAADD8392 /* Foundation.framework */; };
+		04C8013A4C38CAB509F6F6744E82859E /* BladeRunner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D822E6CC97108BC15C0DB3DB18730836 /* BladeRunner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066D932C5E0A71EEC28F49509B6A206B /* FrameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120FB02838DF5BDEDA6E2D1FD51B3E8 /* FrameStore.swift */; };
+		09F06430D8D85EC9C34C953194BC2BC8 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1A2E3AD54FB3E2FC5A64E18602D89 /* UIImageView.swift */; };
+		18B091FF365AF1C2B732C822B0FB136E /* Gifu.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B8C9F26964849481166C3D255B0F0 /* Gifu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1961F8F02F1E383ABBE5D682A176C36A /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13AC391C6CD520E69A8CE1BA6CB2C79 /* UIImageView+SwiftyGif.swift */; };
+		3077D56110DC534439C701EF43D7D9A5 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598CA133F1B0C77481BEA4C7376C1D2 /* GIFImageView.swift */; };
+		320EFFA9D775CDBF143DAE79A5DF5538 /* GIFAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42268F18A970790583B47F2885FE6EEF /* GIFAnimatable.swift */; };
 		32642F3972C038A18B268CCD44205530 /* Pods-BladeRunner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE40A0F2F82502CC4A930648A0E0A2C /* Pods-BladeRunner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		326BE12E11042F9C6C3388B8155637A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		64A659000DF924E62C34555018943AE8 /* Pods-BladeRunner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F970AA690240B6ED8C82184245A0B109 /* Pods-BladeRunner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39131CE2E60E3ECCDB6A1D2D17DE9B5B /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175FEF4C91E4089422A54337CB8BACF4 /* SwiftyGif-dummy.m */; };
+		3B838248CDE02CBAAEF45F45FD6E1381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400B79264052F804BBA186CAADD8392 /* Foundation.framework */; };
+		428FB0A8DCB9F259DE5D17BAB432AD7B /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5689425DA89A202F1378A021630270 /* AnimatedFrame.swift */; };
+		5CA816EC4BF4AFCAAEE345A482717F33 /* Gifu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FD66A117B8F05345B269CB8F8EC2A5 /* Gifu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		793586C069B20FDA94C5534FF7D55963 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E552B7C717230D0137E3E8AF3CBE30 /* UIImage+SwiftyGif.swift */; };
+		8249733E1099841D717D3141A5803622 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E66F22E96A23FDF0B79800F87E5E2 /* ImageSourceHelpers.swift */; };
+		839023A603A96E9D392174F501606F27 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6B0286563021005A7C081A519A67A5 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C56CB8C081EA7298B61166C2AFC2E0E /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B98D646DD573260CCFCAA47C1087FA /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		913B3CFF4BF65EDE1FCE7EAAD291B9B1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9B7196DFE93331676960030CBF4CC /* ReplaceMe.swift */; };
+		9A954D48B0E8CA850CBE34B07038A907 /* Gifu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63D8FFDB4313B2EF83E3886ED83F6A1 /* Gifu-dummy.m */; };
+		9AB1F5AE934C8CF255C5488F9DEDF2F1 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760DC01BE50F4FF761498F0FAA74E93 /* Animator.swift */; };
+		A4D7A44E7F853CA7E0B4135247004F17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400B79264052F804BBA186CAADD8392 /* Foundation.framework */; };
+		B156EC5A664DB59275B90E2CE694D808 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201341FD15F7CBB0C315E95E346A3F5 /* CGSize.swift */; };
+		BA1D17090189CDE511F3E62D85FACA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400B79264052F804BBA186CAADD8392 /* Foundation.framework */; };
+		BB2C82CD860A740FBA898D02DCFFDEDA /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FACA716C40C5CBBDEBDFB6C3E5D50B /* SwiftyGif.framework */; };
+		CA3F3C31CD7A3545FC7066A6A2FCBBA1 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC8130946D61CE32854E721B22F71F4 /* Array.swift */; };
+		DB3065DEF4DD5E14458661F0399275AE /* BladeRunner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07B6A8F7D994EA9B09E2F4DAAF1ABF /* BladeRunner-dummy.m */; };
+		DDC8AEA62690ACDAF126445E62872FF0 /* Pods-BladeRunner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F970AA690240B6ED8C82184245A0B109 /* Pods-BladeRunner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF6162BCE43A2E9C93DC989DA8123D4 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B08D2AB9CD7936EE504F25A5D26DE /* SwiftyGifManager.swift */; };
+		E8AB9A3B76C4DED7E52C4BD53BC70DE9 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82A70630420BD8A225CD0633FD1F645 /* UIImage.swift */; };
 		ED3F42FCE1D8E0E46802D1C8ADA53AF0 /* Pods-BladeRunner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DEE17C89C0713D98696E42058C946 /* Pods-BladeRunner_Tests-dummy.m */; };
-		EF2309CD60DDF9EB60167CB7A4F2F217 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9B7196DFE93331676960030CBF4CC /* ReplaceMe.swift */; };
+		EF69C1293F7C731290068EA85230548E /* Pods-BladeRunner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F622150E2A6CAF4F83AAF85F1A3F /* Pods-BladeRunner_Example-dummy.m */; };
+		F4109E032033B61671AF9F0194AF9062 /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB345086AFF42DF319A7C71489ABCF2 /* Gifu.framework */; };
+		F5DCBDBB42E3BF135C225ADA89F31E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400B79264052F804BBA186CAADD8392 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		481C4F6ECD42BF6FC4F87631BFB07FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830B5AB9E16163B4A1BA339D625FE46C;
+			remoteInfo = Gifu;
+		};
 		65FE62278767AF4340F9586A7EC89B90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -27,7 +57,28 @@
 			remoteGlobalIDString = A9ED03CE51198C6C6CC9428B0A2DA904;
 			remoteInfo = "Pods-BladeRunner_Example";
 		};
-		B67595D394F3C4B4857716038D1FAC22 /* PBXContainerItemProxy */ = {
+		B52E396A01AB30400952224327E9A426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		D147A5EE5F9DC78B677FD6F998B5B51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		D623425144D2F76A3D84F4CEEC214ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830B5AB9E16163B4A1BA339D625FE46C;
+			remoteInfo = Gifu;
+		};
+		DB646E42AFE1A358961982E8025EE077 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,54 +89,97 @@
 
 /* Begin PBXFileReference section */
 		05A10FE74DF70CACBEE4FDBA7A25E0D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		078B8C9F26964849481166C3D255B0F0 /* Gifu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gifu.h; path = Source/Gifu.h; sourceTree = "<group>"; };
+		0A0C617D688EC8B74F920F8959A05F66 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
 		0CE40A0F2F82502CC4A930648A0E0A2C /* Pods-BladeRunner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BladeRunner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0ED23FCEF1CDB83B6A5DC30C7295A9D7 /* BladeRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BladeRunner.release.xcconfig; sourceTree = "<group>"; };
 		138EA2C5CFE2669797D4DA689EDC40E2 /* BladeRunner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BladeRunner-Info.plist"; sourceTree = "<group>"; };
+		175FEF4C91E4089422A54337CB8BACF4 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
 		1DCCA5C9E961B902469E902F7D05D2F2 /* BladeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BladeRunner.debug.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		331DEE17C89C0713D98696E42058C946 /* Pods-BladeRunner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BladeRunner_Tests-dummy.m"; sourceTree = "<group>"; };
+		3593684DC94102103D90DA1803090B09 /* Gifu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gifu-Info.plist"; sourceTree = "<group>"; };
+		3760DC01BE50F4FF761498F0FAA74E93 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Source/Classes/Animator.swift; sourceTree = "<group>"; };
 		37AC1B9934EEEA7A8221288D79E1972A /* Pods-BladeRunner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BladeRunner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F6B0286563021005A7C081A519A67A5 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
 		40BDAB374A0BC855038044F1037B7E48 /* Pods-BladeRunner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BladeRunner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40E5F8D9277E714962AFA02550F15F8A /* Gifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gifu.framework; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42268F18A970790583B47F2885FE6EEF /* GIFAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatable.swift; path = Source/Classes/GIFAnimatable.swift; sourceTree = "<group>"; };
 		43D9B7196DFE93331676960030CBF4CC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BladeRunner/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4400B79264052F804BBA186CAADD8392 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46B98D646DD573260CCFCAA47C1087FA /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
 		47D4C640E9070AF3EF985A249814B14E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		51E0DC39C4D60AAC45B2C3696FE90428 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		56FD66A117B8F05345B269CB8F8EC2A5 /* Gifu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-umbrella.h"; sourceTree = "<group>"; };
 		577DEDABFB2811A5FEAF1E9858F6B1E1 /* Pods-BladeRunner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BladeRunner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A07B6A8F7D994EA9B09E2F4DAAF1ABF /* BladeRunner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BladeRunner-dummy.m"; sourceTree = "<group>"; };
 		5F87608C99E08DECF5EF320F0C92853F /* BladeRunner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BladeRunner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63FACA716C40C5CBBDEBDFB6C3E5D50B /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB1A2E3AD54FB3E2FC5A64E18602D89 /* UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Source/Extensions/UIImageView.swift; sourceTree = "<group>"; };
 		6CD17E1983970AB88AB65C50D4775CA7 /* Pods-BladeRunner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BladeRunner_Example.modulemap"; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5689425DA89A202F1378A021630270 /* AnimatedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = Source/Classes/AnimatedFrame.swift; sourceTree = "<group>"; };
 		7F32AF637BE38463DAE2ABEC84700FF2 /* Pods-BladeRunner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BladeRunner_Tests-Info.plist"; sourceTree = "<group>"; };
 		7FE78EF450F06B37D42E4420446EAB75 /* Pods-BladeRunner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BladeRunner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8201341FD15F7CBB0C315E95E346A3F5 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = Source/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		849D73529044801D8A1C5CAC8626DA94 /* Gifu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.release.xcconfig; sourceTree = "<group>"; };
 		8CD1F622150E2A6CAF4F83AAF85F1A3F /* Pods-BladeRunner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BladeRunner_Example-dummy.m"; sourceTree = "<group>"; };
+		8E16DB6FCA80A337C0296885A9F635CC /* Gifu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gifu.modulemap; sourceTree = "<group>"; };
+		9598CA133F1B0C77481BEA4C7376C1D2 /* GIFImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFImageView.swift; path = Source/Classes/GIFImageView.swift; sourceTree = "<group>"; };
 		98A63E9C58E37D119ACCFBB2C1CA4578 /* Pods_BladeRunner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BladeRunner_Tests.framework; path = "Pods-BladeRunner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B833CD6B32D8F2CF4D2BF50A3A93A80 /* Pods-BladeRunner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BladeRunner_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A189228B22C918A6EED5483060B61F21 /* Pods-BladeRunner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BladeRunner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A80BCF02424CB2FFF1920B1915727D5B /* Pods-BladeRunner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BladeRunner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A82A70630420BD8A225CD0633FD1F645 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Source/Extensions/UIImage.swift; sourceTree = "<group>"; };
 		AAAC8F15BE5C6EE72D65BD5CCD59125E /* Pods-BladeRunner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BladeRunner_Tests.modulemap"; sourceTree = "<group>"; };
 		AD11DE843401D787638771D244F290A7 /* Pods-BladeRunner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BladeRunner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AECF035220249944A07287AA18720902 /* BladeRunner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BladeRunner.modulemap; sourceTree = "<group>"; };
+		B39E66F22E96A23FDF0B79800F87E5E2 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = Source/Helpers/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		B63D8FFDB4313B2EF83E3886ED83F6A1 /* Gifu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gifu-dummy.m"; sourceTree = "<group>"; };
+		BADA629153D03EDF0283815651A7B02E /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
 		BE668A49F27D755157DDA4961EF05BEE /* BladeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BladeRunner.framework; path = BladeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FEB5625EA31B918032203AC61D295F /* Pods_BladeRunner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BladeRunner_Example.framework; path = "Pods-BladeRunner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C691561658DCA092EB2E269FA5C79375 /* Pods-BladeRunner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BladeRunner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6B4BE7D53D4E7AC5B9C66FD0284DA4F /* Gifu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.debug.xcconfig; sourceTree = "<group>"; };
+		C9E552B7C717230D0137E3E8AF3CBE30 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		CB3B08D2AB9CD7936EE504F25A5D26DE /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		D120FB02838DF5BDEDA6E2D1FD51B3E8 /* FrameStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameStore.swift; path = Source/Classes/FrameStore.swift; sourceTree = "<group>"; };
+		D2DB48F95ACF09B78678330D4EEABEF4 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
 		D822E6CC97108BC15C0DB3DB18730836 /* BladeRunner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BladeRunner-umbrella.h"; sourceTree = "<group>"; };
+		DBB345086AFF42DF319A7C71489ABCF2 /* Gifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD19559366B00E93ED8F55935D98F12 /* Gifu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-prefix.pch"; sourceTree = "<group>"; };
+		F13AC391C6CD520E69A8CE1BA6CB2C79 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		F2DC32015CDB6E0986C6E06807F137D9 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
 		F6DABA694C17626BE69BED89386BCD85 /* Pods-BladeRunner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BladeRunner_Example-Info.plist"; sourceTree = "<group>"; };
 		F970AA690240B6ED8C82184245A0B109 /* Pods-BladeRunner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BladeRunner_Example-umbrella.h"; sourceTree = "<group>"; };
 		FABB4AD1404D229FE9DFA8209F59EB94 /* BladeRunner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BladeRunner-prefix.pch"; sourceTree = "<group>"; };
+		FAC8130946D61CE32854E721B22F71F4 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Source/Extensions/Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49A618839EC4944C79FB061CCB466529 /* Frameworks */ = {
+		0E5B0324498FA1F56281FBB26FAE72A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326BE12E11042F9C6C3388B8155637A6 /* Foundation.framework in Frameworks */,
+				F5DCBDBB42E3BF135C225ADA89F31E36 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDE545BB80B6668E39D6518408F08DF3 /* Frameworks */ = {
+		5AA3B3A6EF65187708BB96A9DAAB2B1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10FEB00787E02D238AE72AEEF64CF904 /* Foundation.framework in Frameworks */,
+				A4D7A44E7F853CA7E0B4135247004F17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D74C297D87030EDF1CEAE1AC99B1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D17090189CDE511F3E62D85FACA96 /* Foundation.framework in Frameworks */,
+				F4109E032033B61671AF9F0194AF9062 /* Gifu.framework in Frameworks */,
+				BB2C82CD860A740FBA898D02DCFFDEDA /* SwiftyGif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +191,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC39D9CB66D393DAF57D8EBBD436D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B838248CDE02CBAAEF45F45FD6E1381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19AEA60138EA37DEF3215B11ADC088A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB345086AFF42DF319A7C71489ABCF2 /* Gifu.framework */,
+				63FACA716C40C5CBBDEBDFB6C3E5D50B /* SwiftyGif.framework */,
+				6884AE6F449022B4327C07FEB0F981C7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2430032033D081016529AB2863FBE11E /* BladeRunner */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +255,71 @@
 			path = "Example/Pods/Target Support Files/BladeRunner";
 			sourceTree = "<group>";
 		};
+		578BE0539B41F1CEE601290C53D07C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5426AA72CA808267EB7842CD83E623 /* Gifu */,
+				68367483062D44C2C60080C99475EA15 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68367483062D44C2C60080C99475EA15 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				46B98D646DD573260CCFCAA47C1087FA /* SwiftyGif.h */,
+				CB3B08D2AB9CD7936EE504F25A5D26DE /* SwiftyGifManager.swift */,
+				C9E552B7C717230D0137E3E8AF3CBE30 /* UIImage+SwiftyGif.swift */,
+				F13AC391C6CD520E69A8CE1BA6CB2C79 /* UIImageView+SwiftyGif.swift */,
+				B2A1F11581FF0C0F773DA8F1EA3043EC /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		6884AE6F449022B4327C07FEB0F981C7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4400B79264052F804BBA186CAADD8392 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D5426AA72CA808267EB7842CD83E623 /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				7C5689425DA89A202F1378A021630270 /* AnimatedFrame.swift */,
+				3760DC01BE50F4FF761498F0FAA74E93 /* Animator.swift */,
+				FAC8130946D61CE32854E721B22F71F4 /* Array.swift */,
+				8201341FD15F7CBB0C315E95E346A3F5 /* CGSize.swift */,
+				D120FB02838DF5BDEDA6E2D1FD51B3E8 /* FrameStore.swift */,
+				42268F18A970790583B47F2885FE6EEF /* GIFAnimatable.swift */,
+				9598CA133F1B0C77481BEA4C7376C1D2 /* GIFImageView.swift */,
+				078B8C9F26964849481166C3D255B0F0 /* Gifu.h */,
+				B39E66F22E96A23FDF0B79800F87E5E2 /* ImageSourceHelpers.swift */,
+				A82A70630420BD8A225CD0633FD1F645 /* UIImage.swift */,
+				6AB1A2E3AD54FB3E2FC5A64E18602D89 /* UIImageView.swift */,
+				8DBD423CFEF1A8A8C885E3BBBEB4F918 /* Support Files */,
+			);
+			name = Gifu;
+			path = Gifu;
+			sourceTree = "<group>";
+		};
+		8DBD423CFEF1A8A8C885E3BBBEB4F918 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E16DB6FCA80A337C0296885A9F635CC /* Gifu.modulemap */,
+				B63D8FFDB4313B2EF83E3886ED83F6A1 /* Gifu-dummy.m */,
+				3593684DC94102103D90DA1803090B09 /* Gifu-Info.plist */,
+				DBD19559366B00E93ED8F55935D98F12 /* Gifu-prefix.pch */,
+				56FD66A117B8F05345B269CB8F8EC2A5 /* Gifu-umbrella.h */,
+				C6B4BE7D53D4E7AC5B9C66FD0284DA4F /* Gifu.debug.xcconfig */,
+				849D73529044801D8A1C5CAC8626DA94 /* Gifu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gifu";
+			sourceTree = "<group>";
+		};
 		B262A4BC834CC725C0D9C43A24B78333 /* Pods-BladeRunner_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,22 +336,31 @@
 			path = "Target Support Files/Pods-BladeRunner_Tests";
 			sourceTree = "<group>";
 		};
-		BB31573CD1C45C967BC52C6126D1EF84 /* Products */ = {
+		B2A1F11581FF0C0F773DA8F1EA3043EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADA629153D03EDF0283815651A7B02E /* SwiftyGif.modulemap */,
+				175FEF4C91E4089422A54337CB8BACF4 /* SwiftyGif-dummy.m */,
+				51E0DC39C4D60AAC45B2C3696FE90428 /* SwiftyGif-Info.plist */,
+				0A0C617D688EC8B74F920F8959A05F66 /* SwiftyGif-prefix.pch */,
+				3F6B0286563021005A7C081A519A67A5 /* SwiftyGif-umbrella.h */,
+				D2DB48F95ACF09B78678330D4EEABEF4 /* SwiftyGif.debug.xcconfig */,
+				F2DC32015CDB6E0986C6E06807F137D9 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		CD6B93181893824DB338E347CB4AD340 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				BE668A49F27D755157DDA4961EF05BEE /* BladeRunner.framework */,
+				40E5F8D9277E714962AFA02550F15F8A /* Gifu.framework */,
 				C3FEB5625EA31B918032203AC61D295F /* Pods_BladeRunner_Example.framework */,
 				98A63E9C58E37D119ACCFBB2C1CA4578 /* Pods_BladeRunner_Tests.framework */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -182,18 +368,11 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3D4DB5D4C57EDE271561EB8BE6D1B776 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BB31573CD1C45C967BC52C6126D1EF84 /* Products */,
+				19AEA60138EA37DEF3215B11ADC088A4 /* Frameworks */,
+				578BE0539B41F1CEE601290C53D07C0E /* Pods */,
+				CD6B93181893824DB338E347CB4AD340 /* Products */,
 				3A77C43180E38ACD0B6318E998C8EB0C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DFCC05E8ED615A390D217DAD523FF4C8 /* Pods-BladeRunner_Example */ = {
@@ -226,11 +405,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		310EA5E45D110B1D11D88DB4BED79349 /* Headers */ = {
+		0F34EC74CF9576334797053934C63C23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F21E8D800461D79470702611464633 /* BladeRunner-umbrella.h in Headers */,
+				DDC8AEA62690ACDAF126445E62872FF0 /* Pods-BladeRunner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345D439842F575BEABFF174167CD06CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA816EC4BF4AFCAAEE345A482717F33 /* Gifu-umbrella.h in Headers */,
+				18B091FF365AF1C2B732C822B0FB136E /* Gifu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,33 +430,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C130579925CFBF19C791AA284B5B72D2 /* Headers */ = {
+		9266754DBADA52676BB417022B8B6913 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A659000DF924E62C34555018943AE8 /* Pods-BladeRunner_Example-umbrella.h in Headers */,
+				04C8013A4C38CAB509F6F6744E82859E /* BladeRunner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D0119AFA2528287DB852C553C0401F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839023A603A96E9D392174F501606F27 /* SwiftyGif-umbrella.h in Headers */,
+				8C56CB8C081EA7298B61166C2AFC2E0E /* SwiftyGif.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A862CF4BC5A659F160C87E6F907A853 /* BladeRunner */ = {
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E89B7FE564890CF37B16C76FBB33EE8 /* Build configuration list for PBXNativeTarget "BladeRunner" */;
+			buildConfigurationList = 31B633933E383B130E01E603FD1E99A5 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
 			buildPhases = (
-				310EA5E45D110B1D11D88DB4BED79349 /* Headers */,
-				E796E1CB0AE730E21FDFFD4A0F87BF9B /* Sources */,
-				49A618839EC4944C79FB061CCB466529 /* Frameworks */,
-				B659BEED4C039F4181B8195D723B8519 /* Resources */,
+				F0D0119AFA2528287DB852C553C0401F /* Headers */,
+				21412BE1F643E6898382268F84EAC9D5 /* Sources */,
+				EC39D9CB66D393DAF57D8EBBD436D4F3 /* Frameworks */,
+				6FB12D09B41DBD9AC912B6F424B7B719 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A862CF4BC5A659F160C87E6F907A853 /* BladeRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2C6C864AD9CFB02851323986AFBDF /* Build configuration list for PBXNativeTarget "BladeRunner" */;
+			buildPhases = (
+				9266754DBADA52676BB417022B8B6913 /* Headers */,
+				E5DF4FD0F134760FF7495A35C8EEE07D /* Sources */,
+				C6D74C297D87030EDF1CEAE1AC99B1D3 /* Frameworks */,
+				E983F27F1F0EC8A3A08667D68C6E0AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5906E3434AEFABBDBA769525C43AC98C /* PBXTargetDependency */,
+				318F83CF8E9F21FF87C04372C051572F /* PBXTargetDependency */,
+			);
 			name = BladeRunner;
 			productName = BladeRunner;
 			productReference = BE668A49F27D755157DDA4961EF05BEE /* BladeRunner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		830B5AB9E16163B4A1BA339D625FE46C /* Gifu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154BF6F5ACC2D9083AF92600A1F3ECB1 /* Build configuration list for PBXNativeTarget "Gifu" */;
+			buildPhases = (
+				345D439842F575BEABFF174167CD06CF /* Headers */,
+				8C3394E43E109BDF7D98A53250000E58 /* Sources */,
+				5AA3B3A6EF65187708BB96A9DAAB2B1F /* Frameworks */,
+				12DB884133542DD839C940689EA10ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gifu;
+			productName = Gifu;
+			productReference = 40E5F8D9277E714962AFA02550F15F8A /* Gifu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8400D1B659A24F31DDDC85D98202287B /* Pods-BladeRunner_Tests */ = {
@@ -292,17 +527,19 @@
 		};
 		A9ED03CE51198C6C6CC9428B0A2DA904 /* Pods-BladeRunner_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91C482E320E9FACF8C2595D368D1D81 /* Build configuration list for PBXNativeTarget "Pods-BladeRunner_Example" */;
+			buildConfigurationList = 2F6336CCB4C51D52407A0E9EB4DBD183 /* Build configuration list for PBXNativeTarget "Pods-BladeRunner_Example" */;
 			buildPhases = (
-				C130579925CFBF19C791AA284B5B72D2 /* Headers */,
-				3B2249448BF0F7156A3342F6E5CD555F /* Sources */,
-				BDE545BB80B6668E39D6518408F08DF3 /* Frameworks */,
-				204F440D5E3EF33FF6FB69D3A86B2CEA /* Resources */,
+				0F34EC74CF9576334797053934C63C23 /* Headers */,
+				34EA5D09B2D6B570E5F1F869D6515E46 /* Sources */,
+				0E5B0324498FA1F56281FBB26FAE72A1 /* Frameworks */,
+				B38B16041662DABB27B253C929F75891 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51340578DF35DA3A56DA0039F2B8B863 /* PBXTargetDependency */,
+				AA0EAC3DA1C6C87859ABB32EA7CC2358 /* PBXTargetDependency */,
+				96C2F48EE477C6BBC3504020139F6D4A /* PBXTargetDependency */,
+				CD117607265BBC159EF129E989C39C3E /* PBXTargetDependency */,
 			);
 			name = "Pods-BladeRunner_Example";
 			productName = "Pods-BladeRunner_Example";
@@ -327,26 +564,35 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BB31573CD1C45C967BC52C6126D1EF84 /* Products */;
+			productRefGroup = CD6B93181893824DB338E347CB4AD340 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5A862CF4BC5A659F160C87E6F907A853 /* BladeRunner */,
+				830B5AB9E16163B4A1BA339D625FE46C /* Gifu */,
 				A9ED03CE51198C6C6CC9428B0A2DA904 /* Pods-BladeRunner_Example */,
 				8400D1B659A24F31DDDC85D98202287B /* Pods-BladeRunner_Tests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		204F440D5E3EF33FF6FB69D3A86B2CEA /* Resources */ = {
+		12DB884133542DD839C940689EA10ADD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B659BEED4C039F4181B8195D723B8519 /* Resources */ = {
+		6FB12D09B41DBD9AC912B6F424B7B719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38B16041662DABB27B253C929F75891 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,14 +606,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E983F27F1F0EC8A3A08667D68C6E0AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B2249448BF0F7156A3342F6E5CD555F /* Sources */ = {
+		21412BE1F643E6898382268F84EAC9D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE4387D24134610B31AA7DB4690625E /* Pods-BladeRunner_Example-dummy.m in Sources */,
+				39131CE2E60E3ECCDB6A1D2D17DE9B5B /* SwiftyGif-dummy.m in Sources */,
+				DEF6162BCE43A2E9C93DC989DA8123D4 /* SwiftyGifManager.swift in Sources */,
+				793586C069B20FDA94C5534FF7D55963 /* UIImage+SwiftyGif.swift in Sources */,
+				1961F8F02F1E383ABBE5D682A176C36A /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EA5D09B2D6B570E5F1F869D6515E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF69C1293F7C731290068EA85230548E /* Pods-BladeRunner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3394E43E109BDF7D98A53250000E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428FB0A8DCB9F259DE5D17BAB432AD7B /* AnimatedFrame.swift in Sources */,
+				9AB1F5AE934C8CF255C5488F9DEDF2F1 /* Animator.swift in Sources */,
+				CA3F3C31CD7A3545FC7066A6A2FCBBA1 /* Array.swift in Sources */,
+				B156EC5A664DB59275B90E2CE694D808 /* CGSize.swift in Sources */,
+				066D932C5E0A71EEC28F49509B6A206B /* FrameStore.swift in Sources */,
+				320EFFA9D775CDBF143DAE79A5DF5538 /* GIFAnimatable.swift in Sources */,
+				3077D56110DC534439C701EF43D7D9A5 /* GIFImageView.swift in Sources */,
+				9A954D48B0E8CA850CBE34B07038A907 /* Gifu-dummy.m in Sources */,
+				8249733E1099841D717D3141A5803622 /* ImageSourceHelpers.swift in Sources */,
+				E8AB9A3B76C4DED7E52C4BD53BC70DE9 /* UIImage.swift in Sources */,
+				09F06430D8D85EC9C34C953194BC2BC8 /* UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,12 +661,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E796E1CB0AE730E21FDFFD4A0F87BF9B /* Sources */ = {
+		E5DF4FD0F134760FF7495A35C8EEE07D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACBDD370EEA2A78BAAA9D1A122BEE4F /* BladeRunner-dummy.m in Sources */,
-				EF2309CD60DDF9EB60167CB7A4F2F217 /* ReplaceMe.swift in Sources */,
+				DB3065DEF4DD5E14458661F0399275AE /* BladeRunner-dummy.m in Sources */,
+				913B3CFF4BF65EDE1FCE7EAAD291B9B1 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,213 +679,40 @@
 			target = A9ED03CE51198C6C6CC9428B0A2DA904 /* Pods-BladeRunner_Example */;
 			targetProxy = 65FE62278767AF4340F9586A7EC89B90 /* PBXContainerItemProxy */;
 		};
-		51340578DF35DA3A56DA0039F2B8B863 /* PBXTargetDependency */ = {
+		318F83CF8E9F21FF87C04372C051572F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = B52E396A01AB30400952224327E9A426 /* PBXContainerItemProxy */;
+		};
+		5906E3434AEFABBDBA769525C43AC98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifu;
+			target = 830B5AB9E16163B4A1BA339D625FE46C /* Gifu */;
+			targetProxy = 481C4F6ECD42BF6FC4F87631BFB07FFE /* PBXContainerItemProxy */;
+		};
+		96C2F48EE477C6BBC3504020139F6D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifu;
+			target = 830B5AB9E16163B4A1BA339D625FE46C /* Gifu */;
+			targetProxy = D623425144D2F76A3D84F4CEEC214ED3 /* PBXContainerItemProxy */;
+		};
+		AA0EAC3DA1C6C87859ABB32EA7CC2358 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BladeRunner;
 			target = 5A862CF4BC5A659F160C87E6F907A853 /* BladeRunner */;
-			targetProxy = B67595D394F3C4B4857716038D1FAC22 /* PBXContainerItemProxy */;
+			targetProxy = DB646E42AFE1A358961982E8025EE077 /* PBXContainerItemProxy */;
+		};
+		CD117607265BBC159EF129E989C39C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = D147A5EE5F9DC78B677FD6F998B5B51E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		17C38F00CF4C7B5F2B65159347B8294F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCCA5C9E961B902469E902F7D05D2F2 /* BladeRunner.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BladeRunner/BladeRunner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BladeRunner/BladeRunner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BladeRunner/BladeRunner.modulemap";
-				PRODUCT_MODULE_NAME = BladeRunner;
-				PRODUCT_NAME = BladeRunner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3BBC5FDF8F7B1F137B51F393EB047A57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A189228B22C918A6EED5483060B61F21 /* Pods-BladeRunner_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7ADF720FF5551BA954F36C7A7E59017A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C691561658DCA092EB2E269FA5C79375 /* Pods-BladeRunner_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		831B03BA2289317D269B1AB166F72AF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ED23FCEF1CDB83B6A5DC30C7295A9D7 /* BladeRunner.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BladeRunner/BladeRunner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BladeRunner/BladeRunner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BladeRunner/BladeRunner.modulemap";
-				PRODUCT_MODULE_NAME = BladeRunner;
-				PRODUCT_NAME = BladeRunner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A5300B547DEBBFFAE16D16E095BCF3A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FE78EF450F06B37D42E4420446EAB75 /* Pods-BladeRunner_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A703FC43E38695AF675DA5473CED4310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A80BCF02424CB2FFF1920B1915727D5B /* Pods-BladeRunner_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,7 +760,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,7 +772,314 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		14E7D15C28E8CD4EE7681B99C1BD497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A189228B22C918A6EED5483060B61F21 /* Pods-BladeRunner_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F8046F5D8A28D668D5A20F1C697E01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCCA5C9E961B902469E902F7D05D2F2 /* BladeRunner.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BladeRunner/BladeRunner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BladeRunner/BladeRunner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BladeRunner/BladeRunner.modulemap";
+				PRODUCT_MODULE_NAME = BladeRunner;
+				PRODUCT_NAME = BladeRunner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29674B194E0573137B41EB98C4C03C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80BCF02424CB2FFF1920B1915727D5B /* Pods-BladeRunner_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Tests/Pods-BladeRunner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FE2422565D127628B87E152DE8C6E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE78EF450F06B37D42E4420446EAB75 /* Pods-BladeRunner_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76A11DF1E72DF9722CAE367DDF704378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DC32015CDB6E0986C6E06807F137D9 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78CCCB2D099B079C0D5CD2C0396F29B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED23FCEF1CDB83B6A5DC30C7295A9D7 /* BladeRunner.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BladeRunner/BladeRunner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BladeRunner/BladeRunner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BladeRunner/BladeRunner.modulemap";
+				PRODUCT_MODULE_NAME = BladeRunner;
+				PRODUCT_NAME = BladeRunner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FBC9461AB45D3B1D3D6620748AC7402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DB48F95ACF09B78678330D4EEABEF4 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9F50476A309C0CDA350A949BD252DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849D73529044801D8A1C5CAC8626DA94 /* Gifu.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gifu/Gifu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
+				PRODUCT_MODULE_NAME = Gifu;
+				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B85E9A3208392AE881E6C746AC38DB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C691561658DCA092EB2E269FA5C79375 /* Pods-BladeRunner_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BladeRunner_Example/Pods-BladeRunner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -714,7 +1130,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -727,14 +1143,64 @@
 			};
 			name = Debug;
 		};
+		F06E266945573D0A1285041CE8394222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B4BE7D53D4E7AC5B9C66FD0284DA4F /* Gifu.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gifu/Gifu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
+				PRODUCT_MODULE_NAME = Gifu;
+				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E89B7FE564890CF37B16C76FBB33EE8 /* Build configuration list for PBXNativeTarget "BladeRunner" */ = {
+		154BF6F5ACC2D9083AF92600A1F3ECB1 /* Build configuration list for PBXNativeTarget "Gifu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17C38F00CF4C7B5F2B65159347B8294F /* Debug */,
-				831B03BA2289317D269B1AB166F72AF5 /* Release */,
+				F06E266945573D0A1285041CE8394222 /* Debug */,
+				A9F50476A309C0CDA350A949BD252DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6336CCB4C51D52407A0E9EB4DBD183 /* Build configuration list for PBXNativeTarget "Pods-BladeRunner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE2422565D127628B87E152DE8C6E44 /* Debug */,
+				B85E9A3208392AE881E6C746AC38DB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B633933E383B130E01E603FD1E99A5 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBC9461AB45D3B1D3D6620748AC7402 /* Debug */,
+				76A11DF1E72DF9722CAE367DDF704378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,8 +1208,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,17 +1217,17 @@
 		A74940722F7AB70F01F154D817F07831 /* Build configuration list for PBXNativeTarget "Pods-BladeRunner_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BBC5FDF8F7B1F137B51F393EB047A57 /* Debug */,
-				A703FC43E38695AF675DA5473CED4310 /* Release */,
+				14E7D15C28E8CD4EE7681B99C1BD497E /* Debug */,
+				29674B194E0573137B41EB98C4C03C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C91C482E320E9FACF8C2595D368D1D81 /* Build configuration list for PBXNativeTarget "Pods-BladeRunner_Example" */ = {
+		DAB2C6C864AD9CFB02851323986AFBDF /* Build configuration list for PBXNativeTarget "BladeRunner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5300B547DEBBFFAE16D16E095BCF3A3 /* Debug */,
-				7ADF720FF5551BA954F36C7A7E59017A /* Release */,
+				1F8046F5D8A28D668D5A20F1C697E01F /* Debug */,
+				78CCCB2D099B079C0D5CD2C0396F29B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
