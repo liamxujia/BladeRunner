@@ -114,6 +114,9 @@ public class YPVideoFiltersVC: UIViewController, IsMediaFilterVC {
     }
     
     // MARK: - Top buttons
+    @objc public func save2GIF() {
+
+    }
 
     @objc public func save() {
         guard let didSave = didSave else { return print("Don't have saveCallback") }

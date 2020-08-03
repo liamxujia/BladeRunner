@@ -1,35 +1,69 @@
 PODS:
   - BladeRunner (0.1.0):
     - Gifu (~> 3.2.0)
+    - Interstellar (~> 0.1.0)
     - PryntTrimmerView (~> 4.0.0)
     - SteviaLayout (~> 4.7.3)
     - SwiftyGif (~> 5.3.0)
   - Gifu (3.2.0)
+  - Interstellar (0.1.0):
+    - SwifterSwift (= 5.2.0)
   - PryntTrimmerView (4.0.0)
   - SteviaLayout (4.7.3)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
   - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
   - BladeRunner (from `../`)
+  - Interstellar (from `../../Interstellar`)
 
 SPEC REPOS:
   trunk:
     - Gifu
     - PryntTrimmerView
     - SteviaLayout
+    - SwifterSwift
     - SwiftyGif
 
 EXTERNAL SOURCES:
   BladeRunner:
     :path: "../"
+  Interstellar:
+    :path: "../../Interstellar"
 
 SPEC CHECKSUMS:
-  BladeRunner: e5bf3e586aed0ba0f9e9c22c81646fe3c84e1eb1
+  BladeRunner: 2b9b8d34f3296ced61074256af8c913e31897d79
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
+  Interstellar: 87c48c309fa097dba29a73bb0f80e02c0a882883
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
-PODFILE CHECKSUM: 62d7d33c2270447d0c7c690edb188cef02c286c2
+PODFILE CHECKSUM: cfc277694341c602e647d0af69e852b674fbd4fb
 
 COCOAPODS: 1.9.3

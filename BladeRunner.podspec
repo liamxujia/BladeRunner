@@ -43,6 +43,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'Interstellar', '~> 0.1.0'
   s.dependency 'Gifu', '~> 3.2.0'
   s.dependency 'SwiftyGif', '~> 5.3.0'
   s.dependency 'SteviaLayout', '~> 4.7.3'

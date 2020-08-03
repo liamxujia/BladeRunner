@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import SwiftyGif
+import Photos
+import Gifu
 
 extension YPLibraryVC {
     var isLimitExceeded: Bool { return selection.count >= YPConfig.library.maxNumberOfItems }
@@ -121,15 +124,27 @@ extension YPLibraryVC: UICollectionViewDelegate {
         cell.representedAssetIdentifier = asset.localIdentifier
         cell.multipleSelectionIndicator.selectionColor =
             YPConfig.colors.multipleItemsSelectedCircleColor ?? YPConfig.colors.tintColor
-        mediaManager.imageManager?.requestImage(for: asset,
-                                   targetSize: v.cellSize(),
-                                   contentMode: .aspectFill,
-                                   options: nil) { image, _ in
-                                    // The cell may have been recycled when the time this gets called
-                                    // set image only if it's still showing the same asset.
-                                    if cell.representedAssetIdentifier == asset.localIdentifier && image != nil {
-                                        cell.imageView.image = image
-                                    }
+        // 区分GIF、LivePhoto、Video
+        if asset.mediaSubtypes.rawValue == 64 {
+            mediaManager.imageManager?.requestImageDataAndOrientation(for: asset, options: nil, resultHandler: { (data, string, orientation, info) in
+                if let data = data,
+                    cell.representedAssetIdentifier == asset.localIdentifier {
+                    cell.imageView.animate(withGIFData: data)
+                }
+            })
+        } else {
+            mediaManager.imageManager?.requestImage(for: asset,
+                                                    targetSize: v.cellSize(),
+                                                    contentMode: .aspectFill,
+                                                    options: nil) { image, info in
+                                                        // The cell may have been recycled when the time this gets called
+                                                        // set image only if it's still showing the same asset.
+                                                        print(asset.mediaSubtypes)
+                                                        if let image = image,
+                                                            cell.representedAssetIdentifier == asset.localIdentifier {
+                                                            cell.imageView.image = image
+                                                        }
+            }
         }
         
         let isVideo = (asset.mediaType == .video)

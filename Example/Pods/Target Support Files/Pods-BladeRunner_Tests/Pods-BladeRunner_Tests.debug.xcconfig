@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BladeRunner" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu" "${PODS_CONFIGURATION_BUILD_DIR}/PryntTrimmerView" "${PODS_CONFIGURATION_BUILD_DIR}/SteviaLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BladeRunner" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu" "${PODS_CONFIGURATION_BUILD_DIR}/Interstellar" "${PODS_CONFIGURATION_BUILD_DIR}/PryntTrimmerView" "${PODS_CONFIGURATION_BUILD_DIR}/SteviaLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BladeRunner/BladeRunner.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu/Gifu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PryntTrimmerView/PryntTrimmerView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SteviaLayout/Stevia.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif/SwiftyGif.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "BladeRunner" -framework "Gifu" -framework "PryntTrimmerView" -framework "Stevia" -framework "SwiftyGif"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BladeRunner/BladeRunner.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu/Gifu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Interstellar/Interstellar.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PryntTrimmerView/PryntTrimmerView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SteviaLayout/Stevia.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift/SwifterSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif/SwiftyGif.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "BladeRunner" -framework "Gifu" -framework "Interstellar" -framework "PryntTrimmerView" -framework "Stevia" -framework "SwifterSwift" -framework "SwiftyGif"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

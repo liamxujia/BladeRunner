@@ -3,6 +3,7 @@ platform:ios, '13.0'
 
 target 'BladeRunner_Example' do
   pod 'BladeRunner', :path => '../'
+  pod 'Interstellar', :path => '../../Interstellar'
 
   target 'BladeRunner_Tests' do
     inherit! :search_paths

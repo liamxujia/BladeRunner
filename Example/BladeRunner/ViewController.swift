@@ -19,11 +19,28 @@ class ViewController: UIViewController {
     let pickButton = UIButton()
     let resultsButton = UIButton()
 
+    func test() {
+        let type1 = PHAssetMediaSubtype.photoPanorama.rawValue
+        print(type1)
+        let type2 = PHAssetMediaSubtype.photoHDR.rawValue
+        print(type2)
+        let type3 = PHAssetMediaSubtype.photoScreenshot.rawValue
+        print(type3)
+        let type4 = PHAssetMediaSubtype.photoDepthEffect.rawValue
+        print(type4)
+        let type5 = PHAssetMediaSubtype.videoStreamed.rawValue
+        print(type5)
+        let type6 = PHAssetMediaSubtype.videoHighFrameRate.rawValue
+        print(type6)
+        let type7 = PHAssetMediaSubtype.videoTimelapse.rawValue
+        print(type7)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        test()
 
         self.view.backgroundColor = .white
-
         selectedImageV.contentMode = .scaleAspectFit
         selectedImageV.frame = CGRect(x: 0,
                                       y: 0,
