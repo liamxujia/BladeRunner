@@ -1,8 +1,12 @@
 PODS:
   - BladeRunner (0.1.0):
     - Gifu (~> 3.2.0)
+    - PryntTrimmerView
+    - SteviaLayout (~> 4.7.3)
     - SwiftyGif (~> 5.3.0)
   - Gifu (3.2.0)
+  - PryntTrimmerView (4.0.0)
+  - SteviaLayout (4.7.3)
   - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
@@ -11,6 +15,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Gifu
+    - PryntTrimmerView
+    - SteviaLayout
     - SwiftyGif
 
 EXTERNAL SOURCES:
@@ -18,10 +24,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BladeRunner: c8fcb456ad98b7dc0ba2ce505781c66330b1eee0
+  BladeRunner: 5e76c674e0749293493f1c5ee747d1a5f006550b
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
-PODFILE CHECKSUM: 0b1ff7021236d05eccae5b4d54177f4fd9622812
+PODFILE CHECKSUM: 62d7d33c2270447d0c7c690edb188cef02c286c2
 
 COCOAPODS: 1.9.3

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YPImagePickerHeader.h"
 
 FOUNDATION_EXPORT double BladeRunnerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BladeRunnerVersionString[];

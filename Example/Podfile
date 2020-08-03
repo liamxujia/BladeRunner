@@ -10,3 +10,23 @@ target 'BladeRunner_Example' do
     
   end
 end
+
+swift5 = ['Gifu']
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    swift_version = nil
+    if swift5.include?(target.name)
+      print "Set pod #{target.name} swift version to 5.0\n"
+      swift_version = '5.0'
+    end
+    if swift_version
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = swift_version
+      end
+    end
+
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+    end
+  end
+end

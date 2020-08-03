@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'BladeRunner/Classes/**/*'
   
   # s.resource_bundles = {
@@ -40,4 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Gifu', '~> 3.2.0'
   s.dependency 'SwiftyGif', '~> 5.3.0'
+  s.dependency 'SteviaLayout', '~> 4.7.3'
+  s.dependency 'PryntTrimmerView', '~> 4.0.0'
+
 end
