@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BladeRunner_Example' do
+  pod 'BladeRunner', :path => '../'
+
+  target 'BladeRunner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

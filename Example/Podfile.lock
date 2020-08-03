@@ -1,0 +1,16 @@
+PODS:
+  - BladeRunner (0.1.0)
+
+DEPENDENCIES:
+  - BladeRunner (from `../`)
+
+EXTERNAL SOURCES:
+  BladeRunner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BladeRunner: 6eb7e646e7000d98f7243d3b15737fa063087cb6
+
+PODFILE CHECKSUM: 61214fa01eda3c342b49c459487dc40bf460398e
+
+COCOAPODS: 1.9.3

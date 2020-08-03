@@ -1,0 +1,22 @@
+{
+  "name": "BladeRunner",
+  "version": "0.1.0",
+  "summary": "A short description of BladeRunner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liamxujia@hotmail.com/BladeRunner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liamxujia@hotmail.com": "liamxujia@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liamxujia@hotmail.com/BladeRunner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BladeRunner/Classes/**/*"
+}
