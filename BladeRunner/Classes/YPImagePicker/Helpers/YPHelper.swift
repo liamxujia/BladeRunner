@@ -10,16 +10,20 @@ import Foundation
 import UIKit
 import Photos
 
+internal func bladeRunnerBundle(_ bundle: Bundle) -> Bundle {
+    return Bundle(url: bundle.url(forResource: "BladeRunner", withExtension: "bundle")!)!
+}
+
 internal func ypLocalized(_ str: String) -> String {
     return NSLocalizedString(str,
                              tableName: "YPImagePickerLocalizable",
-                             bundle: Bundle(for: YPPickerVC.self),
+                             bundle: bladeRunnerBundle(Bundle(for: YPPickerVC.self)),
                              value: "",
                              comment: "")
 }
 
 internal func imageFromBundle(_ named: String) -> UIImage {
-    return UIImage(named: named, in: Bundle(for: YPPickerVC.self), compatibleWith: nil) ?? UIImage()
+    return UIImage(named: named, in: bladeRunnerBundle(Bundle(for: YPPickerVC.self)), compatibleWith: nil) ?? UIImage()
 }
 
 struct YPHelper {

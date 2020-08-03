@@ -20,6 +20,13 @@
   },
   "swift_versions": "5.0",
   "source_files": "BladeRunner/Classes/**/*",
+  "resource_bundles": {
+    "BladeRunner": [
+      "BladeRunner/Assets/*.png",
+      "BladeRunner/Assets/**/*.xcassets",
+      "BladeRunner/Assets/**/*.strings"
+    ]
+  },
   "dependencies": {
     "Gifu": [
       "~> 3.2.0"
@@ -31,7 +38,7 @@
       "~> 4.7.3"
     ],
     "PryntTrimmerView": [
-
+      "~> 4.0.0"
     ]
   },
   "swift_version": "5.0"
